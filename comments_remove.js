@@ -1,3 +1,5 @@
 window.onload = function(){
-    document.getElementById("comments").style.display = "none";
+    //gets the "comments" <ytd-comments> div amd removes it
+    var comments = document.getElementById("comments");
+    comments.parentNode.removeChild(comments);
 }
