@@ -1,0 +1,12 @@
+{
+    "name": "Comments_Removed",
+    "version": "0.1",
+    "description": "Remove comments on YouTube",
+    "content_scripts": [{
+        "matches": [
+            "<all_urls>"
+        ],
+        "js": ["comments_remove.js"]
+    }],
+    "manifest_version": 2
+}
