@@ -1,6 +1,6 @@
 # Comments_Removed
 
-Removes the comment section of Youtube videos.
+Chrome extension that removes the comment section of Youtube videos.
 
 ## Versions
 
