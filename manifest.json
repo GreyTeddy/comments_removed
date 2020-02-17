@@ -4,7 +4,7 @@
     "description": "Remove comments on YouTube",
     "content_scripts": [{
         "matches": [
-            "<all_urls>"
+            "youtube.com/watch?v=*"
         ],
         "js": ["comments_remove.js"]
     }],
