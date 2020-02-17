@@ -4,9 +4,12 @@
     "description": "Remove comments on YouTube",
     "content_scripts": [{
         "matches": [
-            "youtube.com/watch?v=*"
+            "https://www.youtube.com/watch?v=*"
         ],
         "js": ["comments_remove.js"]
     }],
+    "browser_action": {
+        "default_title": "Remove comments on YouTube"
+    },
     "manifest_version": 2
 }
